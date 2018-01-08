@@ -17,7 +17,7 @@
 
 					<div class = "form-group">
 						<label for="devour">Devoured?</label><br>
-						<input type="radio" name="devoured" value="1" checked> Not yet Eaten!<br>
+						<input type="radio" name="devoured" value="1" checked> Already Eaten!<br>
 						<input type="radio" name="devoured" value="0"> Devoured!
 					</div>
 
@@ -39,7 +39,7 @@
 		</div>
 
 		<div class="uneatenBurgers col-sm-6">
-			<h2>Not eaten yet!</h2>
+			<h2>Already Eaten!</h2>
 				<ul>
 					{{#each burgers}}
 						{{#if devoured}}
