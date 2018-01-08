@@ -1,24 +1,4 @@
-// var express = require("express");
-// var bodyParser = require("body-parser");
 
-// var port = process.env.PORT || 3000;
-
-// var app = express();
-
-// app.use(express.static("public"));
-
-// app.use(bodyParser.urlencoded({ extended: false}));
-
-// var exphbs = require("express-handlebars");
-
-// app.engine('handlebars', exphbs({ defaultLayout: 'main'}));
-// app.set('view engine', 'handlebars');
-
-// var routes = require("./controllers/burger_controllers.js");
-
-// app.use("/", routes);
-
-// app.listen(port);
 
 var express = require('express');
 var bodyParser = require('body-parser');
@@ -43,5 +23,5 @@ app.set('view engine', 'handlebars');
 var routes = require('./controllers/burger_controllers.js');
 app.use('/', routes);
 
-var port = process.env.PORT || 3600;
+var port = process.env.PORT || 3306;
 app.listen(port);
