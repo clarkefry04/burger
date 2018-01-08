@@ -14,7 +14,7 @@
     "express"
   ],
   "author": "Clarke Fry",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/clarkefry04/burger/issues"
   },
